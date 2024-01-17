@@ -6,7 +6,7 @@ const playAgainButton = document.querySelector('.play-again');
 
 const totalCells = 100;
 const totalBombs = 10;
-const maxScore = totalCells - totalBombs;
+const maxScore = 10;
 const bombsList = [];
 
 let score = 0;
