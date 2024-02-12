@@ -38,9 +38,9 @@ header {
 }
 
 .game-panel {
-  background-color: #2e2e3f;
+  background-color: #d3cdd7;;
   font-size: 40px;
-  color: #ddf2eb;
+  color: rgb(0, 23, 50);
   padding: 0 5px;
 }
 
@@ -58,7 +58,7 @@ header {
 
 .game-container {
   width: 484px;
-  background-color: #22222f;
+  background-color: #d3cdd7;
   color: #ddf2eb;
   margin: auto;
 }
@@ -74,7 +74,7 @@ header {
   height: 48px;
   cursor: pointer;
   outline: 1px solid black;
-  background-color: #2e2e3f;
+  background-color: #d3cdd7;
 }
 
 .cell-bomb {
@@ -84,7 +84,7 @@ header {
 }
 
 .cell:hover {
-  background-color: #22222f;
+  background-color: #b9b0bf;
   transition-duration: 0.1s;
 }
 
@@ -121,6 +121,7 @@ header {
 }
 
 .cell-clicked {
-  background-color: #d3cdd7;
+  background-color: #9B8EA4;
   cursor: not-allowed;
+  transition: 0.1s ease-in;
 }
